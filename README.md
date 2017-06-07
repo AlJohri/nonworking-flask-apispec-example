@@ -13,6 +13,8 @@ psql $DATABASE_URL -c "INSERT INTO templates (name, namespace, content) VALUES (
 flask run
 ```
 
+## Endpoints
+
 - http://localhost:5000/
 - http://localhost:5000/templates/
 - http://localhost:5000/templates/1
