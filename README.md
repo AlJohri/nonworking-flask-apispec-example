@@ -4,6 +4,7 @@ Uses flask-apispec, flask-classful, flask-sqlalchemy, and flask-migrate.
 
 ## Quickstart
 ```
+pip3 install -r requirements.txt
 export DATABASE_URL=postgresql://localhost/test_app FLASK_APP=app.py
 createdb test_app
 flask db init
