@@ -21,4 +21,4 @@ flask run
 
 - http://localhost:5000/
 - http://localhost:5000/templates/
-- http://localhost:5000/templates/1
+- http://localhost:5000/templates/1/
