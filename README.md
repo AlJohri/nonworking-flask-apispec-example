@@ -4,9 +4,9 @@ Uses flask-apispec, flask-classful, flask-sqlalchemy, and flask-migrate.
 
 ## Quickstart
 ```
-mkvirtualenv nonworking-flask-apispec-example -p python3 -r requirements.txt
-# or globally...
-pip3 install -r requirements.txt
+pip install --upgrade pipenv
+pipenv install
+pipenv shell
 
 export DATABASE_URL=postgresql://localhost/test_app FLASK_APP=app.py
 createdb test_app
