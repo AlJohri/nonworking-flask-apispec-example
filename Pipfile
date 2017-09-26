@@ -9,7 +9,7 @@ python_version = "3.6"
 [packages]
 
 "flask-apispec" = "*"
-"flask-migrate" = "*"
+"Flask-Migrate" = "*"
 "psycopg2" = "*"
 "Flask-Classful" = {git = "https://github.com/teracyhq/flask-classful"}
 
